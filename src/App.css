@@ -1,0 +1,223 @@
+
+.encabezado{
+  width: 100%;
+  height: 40px;
+  background-color: rgb(122, 122, 214);
+  display: flex;
+  justify-content: center;
+}
+.listado{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.sobre_mi{
+  width: 100%;
+  height: min-content;
+}
+.contenedor_foto{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.foto{
+  width: 200px;
+  height: 230px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.titulo{
+  text-align: center;
+}
+.contenedor{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+}
+.redactacion{
+  width: 80%;
+}
+.contenedor_lincks{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.items{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.items:hover {
+  transition: filter, transform 500ms ease;
+  transform: scale(1.02);
+  box-shadow: 1px 3px 10px 5px black;
+}
+button{
+  border-radius:20px;
+  padding: 10px;
+  background-color: rgb(122, 122, 214);
+  border: rgb(122, 122, 214);
+}
+button:hover {
+  transition: filter, transform 500ms ease;
+  transform: scale(1.02);
+  box-shadow: 1px 3px 10px 5px black;
+}
+.contenedor_habilidades{
+  width: 100%;
+  height: min-content;
+  margin-top:30px;
+}
+
+h2 {
+  text-align:center;
+}
+
+.contenedor2{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+}
+.contenedor_iconos{
+  width: 80%;
+  height: max-content;
+  background-color: rgb(196, 195, 195);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.image_habilidades{
+  width: 100px;
+  height: 100px;
+  margin: 30px 0 30px 0;
+  
+}
+.conotenedor_habilidades{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 15px 0 15px 0;
+  gap: 20px;
+}
+.contenedor_proyectos{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.proyectos{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.cartas{
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  border: solid 1px rgb(122, 122, 214);
+}
+.cartas:hover {
+  transition: filter, transform 500ms ease;
+  transform: scale(1.02);
+  box-shadow: 1px 3px 10px 5px black;
+}
+.contenedor_img_proyecto{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+}
+.image_proyecto{
+  width: 270px;
+  height: 150px;
+  margin-top: 10px;
+  border-radius: 20px;
+  
+}
+p{
+  text-align: start;
+  margin-left: 10px;
+}
+.contenedor_botones{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.contenedor_pie{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+  background-color: rgb(122, 122, 214);
+}
+.contacto{
+  width: max-content;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.img_contacto{
+  width: 40px;
+  height: 40px;
+}
+.letra_pie{
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+
+@media (max-width: 760px) {
+  .listado{
+    gap: 10px;
+  }
+  .foto{
+    margin-top: 10px;
+  }
+  .contenedor_lincks{
+    gap: 10px;
+  }
+  .items{
+    width: 40px;
+    height: 40px;
+  }
+  .contenedor_iconos{
+    gap: 5px;
+  }
+  
+  .image_habilidades{
+    margin: 10px 0 10px 0;
+    
+  }
+  .contenedor_pie{
+    width: 100%;
+    height: 180px;
+    gap: 0px;
+  }
+  .letra_pie{
+    font-size: 12px;
+  }
+}
