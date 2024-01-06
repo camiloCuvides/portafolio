@@ -33,7 +33,7 @@ function App() {
         <a href="https://www.linkedin.com/in/andres-camilo-cuvides-ortega-999a45295/" target="_blank">
           <img className='items' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASxJREFUSEvl1TsvBFEYh/HfCp2Igso3oNXoKFQKIa6hk/AtJD6GS4m4h0InLo1G7xPoRKUl7Elem81erZndxlQzOe88z5z/Oe+cgjZfhTbzdVxwh/GMs7rHxA+jcgZfGeFV3EaC66ie+oO0xK0nOMBqgA+x3KKkqWAX6wHdw1regnfsowsr6M1b8IrngA5jsLgzHuJ5CP3YxgdGMFfxAU0jOsZSvHSERUo9M4MnvJRBN4vjW2XPTQUnAU3vJNlCxFVvG3fjDX0hySTowRVGQ5waK12PGMtDkLr0NkA72Ij7S0znIUhrcBGgWlGmoaYRncb0U3GCzCPl/IlZnIfgLMbK6/6JoFGjDURzpShq1f0qohb/DFXldRc5jwPnBpM/yo4fmVmjqZ9V7uQAfgNR+VIZag7oTQAAAABJRU5ErkJggg==" />
         </a>
-        <button href="" type="button"><a href="">curriculum</a></button>
+        <button href="" type="button"><a href="file:///C:/Users/USUARIO/Downloads/Curriculum%20Vitae%20Moderno%20Analista%20de%20Sistemas%20Celeste%20Fluor%20y%20Negro%20(4).pdf">curriculum</a></button>
 
       </div>
 
@@ -43,11 +43,11 @@ function App() {
         <h2>Habilidades tecnicas</h2>
         <div className='contenedor2'>
           <div className='contenedor_iconos'>
-            <img className='image_habilidades' src="/public/image/html.png" alt="" />
-            <img className='image_habilidades' src="/public/image/css.png" alt="" />
-            <img className='image_habilidades' src="/public/image/js.png" alt="" />
-            <img className='image_habilidades' src="/public/image/react.png" alt="" />
-            <img className='image_habilidades' src="/public/image/node.png" alt="" />
+            <img className='image_habilidades' src="image/html.png" alt="" />
+            <img className='image_habilidades' src="image/css.png" alt="" />
+            <img className='image_habilidades' src="image/js.png" alt="" />
+            <img className='image_habilidades' src="image/react.png" alt="" />
+            <img className='image_habilidades' src="image/node.png" alt="" />
           </div>
         </div>
         <h2>Habilidades  blandas</h2>
@@ -68,7 +68,7 @@ function App() {
         <div className='proyectos'>
           <section className='cartas'>
             <div className='contenedor_img_proyecto'>
-              <img className='image_proyecto' src="/public/image/ecommerce.png" alt="" />
+              <img className='image_proyecto' src="image/ecommerce.png" alt="" />
             </div>
             <p>
               Se ha llevado a cabo el desarrollo de un proyecto que incluye la gestión de una API para la creación de un carrito de compras integral. Este carrito de compras, diseñado de manera completa, proporciona una experiencia detallada y eficiente para los usuarios. Desde la integración y manejo de la API hasta el diseño final, el proyecto abarca todo el proceso de creación, asegurando un sistema funcional y estéticamente atractivo para la experiencia de compra.</p>
@@ -79,7 +79,7 @@ function App() {
           </section>
           <section className='cartas'>
             <div className='contenedor_img_proyecto'>
-              <img className='image_proyecto' src="/public/image/pokemon.png" alt="" />
+              <img className='image_proyecto' src="image/pokemon.png" alt="" />
             </div>
             <p>
               Se ha creado una aplicación con React que permite interactuar con todos los Pokémon, utilizando la API oficial de Pokémon. Se implementaron peticiones asincrónicas para un despliegue eficiente de la información. La aplicación brinda una experiencia dinámica al explorar la variedad de Pokémon, demostrando un compromiso con la eficacia y la modernidad en el desarrollo.</p>
@@ -90,7 +90,7 @@ function App() {
           </section>
           <section className='cartas'>
             <div className='contenedor_img_proyecto'>
-              <img className='image_proyecto' src="/public/image/rick_and_morty.webp" alt="" />
+              <img className='image_proyecto' src="image/rick_and_morty.webp" alt="" />
             </div>
             <p>
               Se ha desarrollado una aplicación con React para explorar los diversos universos de Rick and Morty. Este proyecto, construido con React Js Vite, utiliza tecnologías como Redux, React Router, Hooks y Custom Hooks para una experiencia de usuario mejorada. Las peticiones se realizan eficientemente mediante axios, asegurando un acceso fluido a la información sobre los universos de Rick and Morty.</p>
@@ -103,15 +103,15 @@ function App() {
       </article>
       <footer className='contenedor_pie'>
         <div className='contacto'>
-          <img className='img_contacto' src="/public/image/email.png" alt="" />
+          <img className='img_contacto' src="image/email.png" alt="" />
           <a className='letra_pie' href="mailto:cuvidesortegaandrescamilo@gmail.com" target="_blank">cuvidesortegaandrescamilo@gmail.com</a>
         </div>
         <div className='contacto'>
-          <img className='img_contacto' src="/public/image/linke.png" alt="" />
+          <img className='img_contacto' src="image/linke.png" alt="" />
           <a className='letra_pie' href="http://www.linkedin.com/in/andres-camilo-cuvides-ortega-999a45295" target="_blank">Camilo Cuvides/linkedin</a>
         </div>
         <div className='contacto'>
-          <img className='img_contacto' src="/public/image/whastapp.png" />
+          <img className='img_contacto' src="image/whastapp.png" />
           <a className='letra_pie' href="" target="_blank">+57 3182213870</a>
         </div>
       </footer>
