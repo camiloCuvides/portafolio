@@ -33,7 +33,7 @@ function App() {
         <a href="https://www.linkedin.com/in/andres-camilo-cuvides-ortega-999a45295/" target="_blank">
           <img className='items' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASxJREFUSEvl1TsvBFEYh/HfCp2Igso3oNXoKFQKIa6hk/AtJD6GS4m4h0InLo1G7xPoRKUl7Elem81erZndxlQzOe88z5z/Oe+cgjZfhTbzdVxwh/GMs7rHxA+jcgZfGeFV3EaC66ie+oO0xK0nOMBqgA+x3KKkqWAX6wHdw1regnfsowsr6M1b8IrngA5jsLgzHuJ5CP3YxgdGMFfxAU0jOsZSvHSERUo9M4MnvJRBN4vjW2XPTQUnAU3vJNlCxFVvG3fjDX0hySTowRVGQ5waK12PGMtDkLr0NkA72Ij7S0znIUhrcBGgWlGmoaYRncb0U3GCzCPl/IlZnIfgLMbK6/6JoFGjDURzpShq1f0qohb/DFXldRc5jwPnBpM/yo4fmVmjqZ9V7uQAfgNR+VIZag7oTQAAAABJRU5ErkJggg==" />
         </a>
-        <button href="" type="button"><a href="file:///C:/Users/USUARIO/Downloads/Curriculum%20Vitae%20Moderno%20Analista%20de%20Sistemas%20Celeste%20Fluor%20y%20Negro%20(4).pdf">curriculum</a></button>
+        <button href="" type="button"><a href="https://drive.google.com/file/d/1db4N8iXNkrJRwhzusqHdOxTTmdGH3Fbw/view?usp=sharing" target="_blank">curriculum</a></button>
 
       </div>
 
